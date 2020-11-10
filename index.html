@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paypal Javascript SDK</title>
+        <style>
+            html, body {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .container {
+                width: 84%;
+                margin: 0 auto;
+            }
+
+            .card {
+                background-color: #efefef;
+                border: 1px solid #333;
+                border-radius: 10px;
+                padding: 20px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Paypal Javascript SDK</h1>
+            <div class="card">
+                <p>Name: Nestle Koko Krunch</p>
+                <p>Price: $3.00</p>
+                <p>Description: Chocolate flavored breakfast cereals</p>
+                <div id="paypal-button-container"></div>
+            </div>
+        </div>
+
+        <script src="https://www.paypal.com/sdk/js?client-id=<<PAYPAL-CLIENT-ID>>"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
